@@ -11,7 +11,7 @@ import javax.swing.*;
 import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.Highlighter;
 
-public class GUI implements ActionListener {
+public class TextStatistics implements ActionListener {
     
     // constructors
 
@@ -271,7 +271,7 @@ public class GUI implements ActionListener {
         }
     }
 
-    public GUI() 
+    public TextStatistics() 
     {
         // set UI texts to the same font and size
 
@@ -580,6 +580,6 @@ public class GUI implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new GUI();
+        new TextStatistics();
     }
 }
